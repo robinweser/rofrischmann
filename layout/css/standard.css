@@ -5,6 +5,7 @@
 html {
     font-family: Lato, sans-serif;
     font-weight: 300;
+    background-color: white;
 }
 html,
 body {
@@ -227,7 +228,6 @@ a:hover {
         height: 50px;
     }
     #scrollArrow{
-        width: 40px;
-        height: 40px;
+        display: hidden;
     }
 }
