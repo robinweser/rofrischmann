@@ -40,7 +40,7 @@ b {
 }
 .megrim {
     font-family: Megrim, serif;
-    font-size: 28px;
+    font-size: 26px;
     display: inline-block
 }
 h1.megrim {
@@ -70,11 +70,20 @@ h1.megrim {
 .c5 {
     color: #298080
 }
+.u1 {
+    border-bottom: 2px solid #375688;
+}
+.u4 {
+    border-bottom: 2px solid #378993;
+}
 .c1,
 .c2,
 .c3,
 .c4,
-.c5 {
+.c5,
+.u1,
+.u1,
+.u4 {
     display: inline;
     margin-right: 3px;
 }
@@ -117,16 +126,16 @@ a:hover {
     opacity: 0.0;
 }
 #portrait {
-    width: auto;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 1px solid rgba(100, 100, 100, 0.5);
     box-shadow: 0px 0px 0px black;
-        -webkit-transition: all 2s ease-in-out;
-    -moz-transition: all 2s ease-in-out;
-    -o-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 @-webkit-keyframes scrollerToggle {
     0% {
@@ -227,7 +236,8 @@ a:hover {
         width: 50px;
         height: 50px;
     }
-    #scrollArrow{
+    #scrollArrow {
         display: none;
     }
 }
+
