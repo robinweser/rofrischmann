@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.9.4//EN
+N:Frischmann;Robin;;;
+FN:Robin Frischmann
+ORG:Unverschämt.;
+EMAIL;type=INTERNET;type=WORK;type=pref:robin@rofrischmann.de
+TEL;type=CELL;type=VOICE;type=pref:017692639026
+item1.URL;type=pref:http://rofrischmann.de
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:e1c7bc41-a874-48a3-8d64-da28c0a9e129
+X-ABUID:E1C7BC41-A874-48A3-8D64-DA28C0A9E129:ABPerson
+END:VCARD

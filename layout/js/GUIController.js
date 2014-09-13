@@ -37,7 +37,9 @@ function loadContact() {
 function loadAnimateMe() {
     window.location.href = "https://bitbucket.org/Grindelwald/animateme.js";
 }
-
+function loadVCard() {
+    window.location.href = "content/vcard/Robin Frischmann.vcf";
+}
 function showScroller() {
     if (document.childNodes[1].clientHeight < document.childNodes[1].scrollHeight) {
         setTimeout('scrollArrow.style.opacity = "0.8"', 500);
