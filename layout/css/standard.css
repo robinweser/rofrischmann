@@ -8,6 +8,7 @@ code {
     padding: 2px 4px;
     border: 1px solid rgb(180, 180, 180);
     border-radius: 3px;
+    vertical-align: 1px;
 }
 html {
     background-color: white;
@@ -65,9 +66,24 @@ h1.megrim {
 .c5 {
     color: rgba(56, 150, 132, 0.8)
 }
+.u1 {
+    border-bottom: 2px solid rgba(55, 86, 136, 0.8);
+}
 .u4 {
     border-bottom: 2px solid rgba(55, 137, 147, 0.8);
     margin-right: 0px !important;
+}
+.u1:hover {
+    border-bottom: 2px solid rgba(55, 86, 136, 1);
+    color: rgba(55, 86, 136, 1)
+}
+.u4:hover {
+    border-bottom: 2px solid rgba(55, 137, 147, 1);
+    color: rgba(55, 137, 147, 1)
+}
+.u1,
+.u4 {
+    cursor: pointer;
 }
 .d1 {
     margin-right: 6px;
@@ -83,6 +99,7 @@ h1.megrim {
 .c4,
 .c5,
 .u4,
+.u1,
 .d1,
 .d2,
 d3 {
@@ -102,9 +119,6 @@ a {
 }
 a:hover {
     color: #52525a;
-}
-.u4 {
-    cursor: pointer;
 }
 #aboutme {
     line-height: 21pt;
@@ -148,6 +162,27 @@ a:hover {
     -o-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
+}
+#facebookText,
+#behanceText,
+#instagramText,
+#xingText,
+#vcardText,
+#contactText {
+    display: none;
+    opacity: 0.8;
+    font-family: "Lato-Light";
+    width: 200px;
+    font-size: 21px;
+    padding-top: 6px;
+}
+#facebook:hover ~ #facebookText,
+#contact:hover ~ #contactText,
+#behance:hover ~ #behanceText,
+#instagram:hover ~ #instagramText,
+#xing:hover ~ #xingText,
+#vcard:hover ~ #vcardText {
+    display: block;
 }
 @-webkit-keyframes scrollerToggle {
     0% {
