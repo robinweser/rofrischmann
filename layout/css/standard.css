@@ -20,6 +20,9 @@ b {
     font-family: "Lato-Regular";
     font-weight: 500;
 }
+a {
+    text-decoration: none;
+}
 body {
     color: grey;
     width: 100%;
@@ -270,6 +273,13 @@ a:hover {
     right: 10px;
     z-index: 400;
 }
+@media (max-device-width: 700px),
+(max-width: 700px) {
+    #socials {
+        width: 200px;
+        margin: auto;
+    }
+}
 @media (max-device-width: 600px),
 (max-width: 600px) {
     .page {
@@ -278,9 +288,13 @@ a:hover {
     h1.megrim {
         font-size: 50px;
     }
-    .smartNav {
-        width: 40px;
-        height: 40px;
+    #facebook:hover ~ #facebookText,
+    #contact:hover ~ #contactText,
+    #behance:hover ~ #behanceText,
+    #instagram:hover ~ #instagramText,
+    #xing:hover ~ #xingText,
+    #vcard:hover ~ #vcardText {
+        display: none;
     }
     #scrollArrow {
         display: none;

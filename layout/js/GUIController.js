@@ -34,14 +34,6 @@ function loadContact() {
     window.location.href = "mailto:robin@rofrischmann.de";
 }
 
-function loadAnimateMe() {
-    window.location.href = "https://bitbucket.org/Grindelwald/animateme.js";
-}
-
-function loadCalculateMe() {
-    window.location.href = "https://bitbucket.org/Grindelwald/calculateme.js";
-}
-
 function loadVCard() {
     window.location.href = "content/vcard/Robin Frischmann.vcf";
 }
