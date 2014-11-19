@@ -1,1 +1,55 @@
-(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-51308679-1","rofrischmann.de");ga("send","pageview");function loadFacebook(){window.location.href="https://www.facebook.com/grindelwald.gaps"}function loadBehance(){window.location.href="https://www.behance.net/rofrischmann"}function loadInstagram(){window.location.href="http://instagram.com/rofrischmann"}function loadXing(){window.location.href="https://www.xing.com/profile/Robin_Frischmann"}function loadContact(){window.location.href="mailto:robin@rofrischmann.de"}function loadVCard(){window.location.href="content/vcard/Robin Frischmann.vcf"}function showScroller(){if(document.childNodes[1].clientHeight<document.childNodes[1].scrollHeight){setTimeout('scrollArrow.style.opacity = "0.8"',500)}}function showPortrait(){portrait.classList.add("transition-1000");portrait.classList.remove("opacityZero")}function checkShowScroller(){setTimeout("showScroller()",2000)}function loadPage(){checkShowScroller();portrait.classList.add("opacityZero");setTimeout("showPortrait()",0)}function scrollBottom(){scrollArrow.style.opacity="0.0"}window.onload=loadPage;window.onscroll=scrollBottom;window.onresize=checkShowScroller;
+function loadFacebook() {
+    window.location.href = "https://www.facebook.com/grindelwald.gaps"
+}
+
+function loadBehance() {
+    window.location.href = "https://www.behance.net/rofrischmann"
+}
+
+function loadInstagram() {
+    window.location.href = "http://instagram.com/rofrischmann"
+}
+
+function loadXing() {
+    window.location.href = "https://www.xing.com/profile/Robin_Frischmann"
+}
+
+function loadContact() {
+    window.location.href = "mailto:robin@rofrischmann.de"
+}
+
+function loadVCard() {
+    window.location.href = "content/vcard/Robin Frischmann.vcf"
+}
+
+function showScroller() {
+    if (document.childNodes[1].clientHeight < document.childNodes[1].scrollHeight) {
+        setTimeout('scrollArrow.style.opacity = "0.8"', 500)
+    }
+}
+
+function checkShowScroller() {
+    setTimeout("showScroller()", 2e3)
+}
+
+function loadPage() {
+    checkShowScroller()
+}
+
+function scrollBottom() {
+    scrollArrow.style.opacity = "0.0"
+}(function (e, t, n, r, i, s, o) {
+    e.GoogleAnalyticsObject = i;
+    e[i] = e[i] || function () {
+        (e[i].q = e[i].q || []).push(arguments)
+    }, e[i].l = 1 * new Date;
+    s = t.createElement(n), o = t.getElementsByTagName(n)[0];
+    s.async = 1;
+    s.src = r;
+    o.parentNode.insertBefore(s, o)
+})(window, document, "script", "//www.google-analytics.com/analytics.js", "ga");
+ga("create", "UA-51308679-1", "rofrischmann.de");
+ga("send", "pageview");
+window.onload = loadPage;
+window.onscroll = scrollBottom;
+window.onresize = checkShowScroller
