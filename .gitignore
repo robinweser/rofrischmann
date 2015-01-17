@@ -3,3 +3,5 @@
 # Example .gitignore files: https://github.com/github/gitignore
 /.ftpsync_settings
 /temp/
+/node_modules/
+/bin/
